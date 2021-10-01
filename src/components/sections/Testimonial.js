@@ -106,12 +106,16 @@ const Testimonial = ({
                 
               </div>
             </div>
-
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+
               <div className="tiles-item-inner">
                 <div className="">
                   <p className="text-sm mb-0">
-                  <img  src={Torquay}></img>
+                  <a href='https://torquayheights.co.uk/'>
+
+                  <img  src={Torquay} alt='Torquay'></img>
+                  </a>
+
                    </p>
                 </div>
                
